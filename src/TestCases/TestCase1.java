@@ -1,4 +1,4 @@
-package Testcases;
+package testcases;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
