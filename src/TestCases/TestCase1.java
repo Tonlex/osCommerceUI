@@ -45,7 +45,9 @@ class TestCase1{
 	}
 
 	@AfterAll
-	static void tearDownAfterClass() {}
+	static void tearDownAfterClass() {
+		driver.quit();
+	}
 
 	@BeforeEach
 	void setUp() {

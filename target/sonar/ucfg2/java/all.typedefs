@@ -17,18 +17,18 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 wait()java.lang.Object#wait()V*
 
 hashCode()java.lang.Object#hashCode()I±
-TestCases.TestCase1java.lang.ObjectA
-tearDownAfterClass())TestCases.TestCase1#tearDownAfterClass()V5
-createDriver()#TestCases.TestCase1#createDriver()V)
-<init>()TestCases.TestCase1#<init>()V'
-test1()TestCases.TestCase1#test1()V'
-test2()TestCases.TestCase1#test2()V-
+Testcases.TestCase1java.lang.ObjectA
+tearDownAfterClass())Testcases.TestCase1#tearDownAfterClass()V5
+createDriver()#Testcases.TestCase1#createDriver()V)
+<init>()Testcases.TestCase1#<init>()V'
+test1()Testcases.TestCase1#test1()V'
+test2()Testcases.TestCase1#test2()V-
 
-tearDown()TestCases.TestCase1#tearDown()V=
-setUpBeforeClass()'TestCases.TestCase1#setUpBeforeClass()V1
-quitDriver()!TestCases.TestCase1#quitDriver()VG
-createAndStartService(),TestCases.TestCase1#createAndStartService()V'
-setUp()TestCases.TestCase1#setUp()V´
+tearDown()Testcases.TestCase1#tearDown()V=
+setUpBeforeClass()'Testcases.TestCase1#setUpBeforeClass()V1
+quitDriver()!Testcases.TestCase1#quitDriver()VG
+createAndStartService(),Testcases.TestCase1#createAndStartService()V'
+setUp()Testcases.TestCase1#setUp()V´
 
 8org.openqa.selenium.remote.service.DriverService$Builderjava.lang.Objectœ
 usingAnyFreePort()…org.openqa.selenium.remote.service.DriverService$Builder#usingAnyFreePort()Lorg/openqa/selenium/remote/service/DriverService$Builder;N

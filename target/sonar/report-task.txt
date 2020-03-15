@@ -3,5 +3,5 @@ projectKey=UICommerce
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.5846
 dashboardUrl=https://sonarcloud.io/dashboard?id=UICommerce
-ceTaskId=AXDgDeU6BehH4Q3JBDbt
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXDgDeU6BehH4Q3JBDbt
+ceTaskId=AXDgL7kwF-bJ1HcY1IJb
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXDgL7kwF-bJ1HcY1IJb
