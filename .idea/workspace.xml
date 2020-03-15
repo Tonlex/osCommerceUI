@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b6ec7fc-5701-48bc-afa6-f6a23573324e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YWX5y9wsFwE58MrlrAFWK5vVMC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="osCommerceUIPracticeSolved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.TestCase1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCase1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b6ec7fc-5701-48bc-afa6-f6a23573324e" name="Default Changelist" comment="" />
+      <created>1583059144375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583059144375</updated>
+      <workItem from="1583059152356" duration="160000" />
+      <workItem from="1583059562737" duration="8000" />
+      <workItem from="1583059892160" duration="167000" />
+      <workItem from="1583060078234" duration="20000" />
+      <workItem from="1584288388201" duration="3282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="877" y="175" key="#TestCase1" timestamp="1583059810912">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="877" y="175" key="#TestCase1/0.0.2560.1040@0.0.2560.1040" timestamp="1583059810912" />
+    <state x="1038" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583059843516">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1038" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040@0.0.2560.1040" timestamp="1583059843516" />
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1583060096813">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1583060096813" />
+    <state width="2517" height="282" key="GridCell.Tab.0.bottom" timestamp="1583060058491">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
+    <state width="2517" height="282" key="GridCell.Tab.0.center" timestamp="1583060058491">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
+    <state width="2517" height="282" key="GridCell.Tab.0.left" timestamp="1583060058491">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
+    <state width="2517" height="282" key="GridCell.Tab.0.right" timestamp="1583060058491">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
+    <state x="781" y="162" key="SettingsEditor" timestamp="1584290422902">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="781" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1584290422902" />
+    <state x="1010" y="286" key="extract.method.dialog" timestamp="1583060053483">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1010" y="286" key="extract.method.dialog/0.0.2560.1040@0.0.2560.1040" timestamp="1583060053483" />
+  </component>
+</project>
