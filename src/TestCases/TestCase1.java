@@ -1,4 +1,4 @@
-package TestCases;
+package Testcases;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -22,8 +22,7 @@ class TestCase1{
 	
 	private static WebDriver driver;
 	private static ChromeDriverService service;
-	
-	private Process process; 
+
 	
 	public static void createAndStartService() throws IOException {
 		service = new ChromeDriverService.Builder()
@@ -41,33 +40,34 @@ class TestCase1{
 	}
 
 	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	static void setUpBeforeClass() throws IOException {
 		createAndStartService();	
 	}
 
 	@AfterAll
-	static void tearDownAfterClass() throws Exception {}
+	static void tearDownAfterClass() {}
 
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp() {
 		createDriver();
 		driver.manage().window().maximize();
 		
 	}
 
 	@AfterEach
-	void tearDown() throws Exception {
+	void tearDown() {
 		quitDriver();
 	}
 
+	private static By stock = By.xpath("//*[@id=\"bodyContent\"]/form/div/div[1]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/input[1]");
 	@Test
 	void test1() throws InterruptedException {
 		driver.get("https://demo.oscommerce.com");
 		driver.findElement(By.linkText("Samsung Galaxy Tab")).click();
 		driver.findElement(By.id("tdb4")).click();
 		Thread.sleep(500);
-		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/form/div/div[1]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/input[1]")).clear();
-		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/form/div/div[1]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/input[1]")).sendKeys("2");
+		driver.findElement(stock).clear();
+		driver.findElement(stock).sendKeys("2");
 		driver.findElement(By.id("tdb4")).click();
 		driver.findElement(By.id("tdb5")).click();
 		driver.findElement(By.xpath("//*[@id=\"loginModules\"]/div[1]/div/form/table/tbody/tr[1]/td[2]/input")).sendKeys("jocebo6233@mailimail.com");
@@ -88,8 +88,8 @@ class TestCase1{
 		driver.findElement(By.linkText("Beloved")).click();
 		driver.findElement(By.id("tdb4")).click();
 		Thread.sleep(500);
-		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/form/div/div[1]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/input[1]")).clear();
-		driver.findElement(By.xpath("//*[@id=\"bodyContent\"]/form/div/div[1]/table/tbody/tr/td[1]/table/tbody/tr/td[2]/input[1]")).sendKeys("3");
+		driver.findElement(stock).clear();
+		driver.findElement(stock).sendKeys("3");
 		driver.findElement(By.id("tdb4")).click();
 		Thread.sleep(500);
 		driver.findElement(By.id("tdb5")).click();

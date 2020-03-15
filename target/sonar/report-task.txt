@@ -1,0 +1,7 @@
+organization=tonlex
+projectKey=UICommerce
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.5846
+dashboardUrl=https://sonarcloud.io/dashboard?id=UICommerce
+ceTaskId=AXDgDeU6BehH4Q3JBDbt
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXDgDeU6BehH4Q3JBDbt

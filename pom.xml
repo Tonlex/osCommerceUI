@@ -1,10 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>osCommerceUIPracticeSolved</groupId>
   <artifactId>osCommerceUIPracticeSolved</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<sonar.projectKey>UICommerce</sonar.projectKey>
+		<sonar.organization>tonlex</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>e41bcae4de8d331d06b573e57747965c311c7e9b</sonar.login>
+	</properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
+
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -14,6 +21,7 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+
     </plugins>
   </build>
   <dependencies>
@@ -22,6 +30,7 @@
   		<artifactId>selenium-java</artifactId>
   		<version>3.8.1</version>
   	</dependency>
+
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
   		<artifactId>selenium-chrome-driver</artifactId>

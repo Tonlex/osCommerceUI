@@ -7,7 +7,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1YWX5y9wsFwE58MrlrAFWK5vVMC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,14 +30,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.osCommerceUIPracticeSolved [verify] (1)">
     <configuration name="TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="osCommerceUIPracticeSolved" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCases.*" />
+          <option name="PATTERN" value="Testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -36,6 +47,58 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="osCommerceUIPracticeSolved [verify] (1)" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+                <option value="sonar:sonar" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="osCommerceUIPracticeSolved [verify]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+                <option value="sonar:sonar" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -58,6 +121,7 @@
       <workItem from="1583059892160" duration="167000" />
       <workItem from="1583060078234" duration="20000" />
       <workItem from="1584288388201" duration="3282000" />
+      <workItem from="1584305789369" duration="3046000" />
     </task>
     <servers />
   </component>
@@ -69,34 +133,46 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="877" y="175" key="#TestCase1/0.0.2560.1040@0.0.2560.1040" timestamp="1583059810912" />
+    <state x="734" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584306566118">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="734" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1584306566118" />
+    <state x="895" y="112" key="#osCommerceUIPracticeSolved_[verify]" timestamp="1584306769045">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="895" y="112" key="#osCommerceUIPracticeSolved_[verify]/0.0.2560.1040@0.0.2560.1040" timestamp="1584306769045" />
+    <state x="895" y="112" key="#osCommerceUIPracticeSolved_[verify]_(1)" timestamp="1584306851283">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="895" y="112" key="#osCommerceUIPracticeSolved_[verify]_(1)/0.0.2560.1040@0.0.2560.1040" timestamp="1584306851283" />
     <state x="1038" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583059843516">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1038" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1040@0.0.2560.1040" timestamp="1583059843516" />
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1583060096813">
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1584306819244">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1583060096813" />
-    <state width="2517" height="282" key="GridCell.Tab.0.bottom" timestamp="1583060058491">
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1584306819244" />
+    <state width="2517" height="282" key="GridCell.Tab.0.bottom" timestamp="1584306860388">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="282" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
-    <state width="2517" height="282" key="GridCell.Tab.0.center" timestamp="1583060058491">
+    <state width="2517" height="282" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1584306860388" />
+    <state width="2517" height="282" key="GridCell.Tab.0.center" timestamp="1584306860388">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="282" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
-    <state width="2517" height="282" key="GridCell.Tab.0.left" timestamp="1583060058491">
+    <state width="2517" height="282" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1584306860388" />
+    <state width="2517" height="282" key="GridCell.Tab.0.left" timestamp="1584306860388">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="282" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
-    <state width="2517" height="282" key="GridCell.Tab.0.right" timestamp="1583060058491">
+    <state width="2517" height="282" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1584306860388" />
+    <state width="2517" height="282" key="GridCell.Tab.0.right" timestamp="1584306860388">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="282" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1583060058491" />
-    <state x="781" y="162" key="SettingsEditor" timestamp="1584290422902">
+    <state width="2517" height="282" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1584306860388" />
+    <state x="781" y="162" key="SettingsEditor" timestamp="1584306700553">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1584290422902" />
+    <state x="781" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1584306700553" />
     <state x="1010" y="286" key="extract.method.dialog" timestamp="1583060053483">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
